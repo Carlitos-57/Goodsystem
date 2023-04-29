@@ -12,8 +12,8 @@ document.getElementById('form')
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
                 btn.value = 'Send Email';
-                alert('Enviado! Ok.');
-                location.href = 'http://181.141.58.127/goodsystemserv_emb/email.html'
+                alert('Enviado! Ok. Pronto! enviaremos a tu correo la Guia de e-commerce.pdf, pero antes siguenos en Instagram, Gracias por tu contacto.');
+                location.href = 'https://bit.ly/3Xpu3BN'
             }, (err) => {
                 btn.value = 'Send Email';
                 alert(JSON.stringify(err));
