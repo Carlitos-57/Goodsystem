@@ -12,7 +12,7 @@ document.getElementById('form')
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
                 btn.value = 'Send Email';
-                alert('Recibimos tu email! Ok. Pronto! enviaremos a tu correo la Guia de e-commerce.pdf, pero antes siguenos en Instagram, Gracias por tu contacto.');
+                alert('Recibimos tu email! Gracias por tu contacto. Pronto! enviaremos a tu correo La Guia definitiva de facebook Ads, pero antes siguenos en Instagram, y unete a nuestro canal de telegram.');
                 location.href = 'https://bit.ly/3Xpu3BN'
             }, (err) => {
                 btn.value = 'Send Email';
