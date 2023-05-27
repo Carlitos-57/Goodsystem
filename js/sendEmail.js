@@ -13,7 +13,7 @@ document.getElementById('form')
             .then(() => {
                 btn.value = 'Send Email';
                 alert('Recibimos tu email! Gracias por tu contacto. Pronto! enviaremos a tu correo La Guia definitiva de facebook Ads, pero antes siguenos en Instagram, y unete a nuestro canal de telegram.');
-                location.href = 'https://bit.ly/3Xpu3BN'
+                location.href = 'https://main--cozy-croquembouche-1f7bcc.netlify.app/single.html'
             }, (err) => {
                 btn.value = 'Send Email';
                 alert(JSON.stringify(err));
