@@ -1,3 +1,0 @@
-# GoodSystemS
-# GoodSystemS
-# GoodSystemS
